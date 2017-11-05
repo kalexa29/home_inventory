@@ -12,30 +12,40 @@ use Data::Dumper;
 open my $fh1, '/Users/Katelynn/Documents/home_inventory/clothes_download.csv';
 
 # loop through the original file
-my $clothes_new = "Box,Category,Sub Category,Item,Color\n";
+my $clothes_new = "box,category,sub_category,details,color\n";
 while (my $line = <$fh1>) {
+    next if $. == 1;                                                    # skip first line
+    $line = lc $line;                                                   # make all letters lowercase for consistency
+    
+    my @arr = split/,/,$line;                                           # split the line into parts
+    my $box = uc $arr[0];                                               # first bit is the box the item is in, also the only uppercase column
+    my $category = $arr[1];                                             # second bit is the top level category
+    my $sub_category = '';
+    my $item;
+    my $color = '';
+    
     # get item bit
-    my ($item) = $line =~ /"(.*?)"/;
-    next if !defined $item;                                         # skips items that are undefined
+    ($item) = $line =~ /"(.*?)"/;
     
-    my @arr_item = split/,/,$item;                                  # split the item column into parts
-    my $sub_category = substr @arr_item[(scalar @arr_item - 1)], 1; # get the last piece of the item column and save it as the sub category
-    
-    # clean up item bit
-    $item = '';
-    for (my $i = 0; $i < (scalar @arr_item) - 1; $i++) {
-        $item .= $arr_item[$i] . ',';
+    if (defined $item) {
+        my @arr_item = split/,/,$item;                                  # split the item column into parts
+        $sub_category = substr @arr_item[(scalar @arr_item - 1)], 1;    # get the last piece of the item column and save it as the sub category
+
+        # clean up item bit
+        for (my $i = 0; $i < (scalar @arr_item) - 1; $i++) {
+            $item .= $arr_item[$i] . ',';
+        }
+        chop $item;
+        
+        # get color bit
+        $color = $arr[(scalar @arr - 1)];                               # last column is the color
+
+        # clean up color bit
+        $color =~ s/^\s+|\"|\s+$//g;                                    # remove leading spaces | remove double quotes | remove trailing spaces
+    } else {                                                            # handle undefined items
+        $category = $arr[2];                                            # move sub_category to category
+        $item = '';
     }
-    chop $item;
-    my @arr = split/,/,$line;                                       # split the line into parts
-    my $box = $arr[0];                                              # first bit is the box the item is in
-    my $category = $arr[1];                                         # second bit is the top level category
-    
-    # get color bit
-    my $color = $arr[(scalar @arr - 1)];                            # last column is the color
-    
-    # clean up color bit
-    $color =~ s/^\s+|\"|\s+$//g;                                    # remove leading spaces | remove double quotes | remove trailing spaces
     $clothes_new .= "$box,$category,$sub_category,\"$item\",$color\n";
 }
 close $fh1;
