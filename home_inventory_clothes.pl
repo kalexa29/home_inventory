@@ -34,6 +34,7 @@ while (my $line = <$fh1>) {
         $sub_category = substr @arr_item[(scalar @arr_item - 1)], 1;    # get the last piece of the item column and save it as the sub category
 
         # clean up item bit
+        $item = '';
         for (my $i = 0; $i < (scalar @arr_item) - 1; $i++) {
             $item .= $arr_item[$i] . ',';
         }

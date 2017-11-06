@@ -1,121 +1,121 @@
 box,category,sub_category,details,color
-P,clothes,sweater,"long sleeve, crew neck, pullover, sweaterlong sleeve, crew neck, pullover",light blue
-P,clothes,cardigan,"long sleeve, crew neck, cardiganlong sleeve, crew neck",kelly green
-P,clothes,sweater,"heavy, button up, sweaterheavy, button up",forest green
-P,clothes,cardigan,"long sleeve, flowy, cardiganlong sleeve, flowy",olive green
-P,clothes,shirt,"long sleeve, v-neck, shirtlong sleeve, v-neck",olive green
-P,clothes,cardigan,"3/4 length sleeve, crew neck, button down, cardigan3/4 length sleeve, crew neck, button down",purple
-P,clothes,blouse,"3/4 length sleeve, v-neck, sheer, blouse3/4 length sleeve, v-neck, sheer",pale pink
-P,clothes,shirt,"long sleeve, cowl neck, shirtlong sleeve, cowl neck",pale pink
-P,clothes,blouse,"3/4 length sleeved, sheer, blouse3/4 length sleeved, sheer",leopard print
-P,clothes,blouse,"sheer, blousesheer",salmon
-P,clothes,cardigan,"long sleeve, button down, crew neck, cardiganlong sleeve, button down, crew neck",pale pink
-P,clothes,blouse,"3/4 length sleeve, blouse3/4 length sleeve",leopard print
-P,clothes,blouse,"long sleeve, high collar, sheer, blouselong sleeve, high collar, sheer",robin's egg blue
-P,clothes,blouse,"3/4 length sleeve, crew neck, button down, blouse3/4 length sleeve, crew neck, button down",light beige
-P,clothes,sweater,"long sleeve, scoop neck, sweaterlong sleeve, scoop neck",beige with black cat
-P,clothes,cardigan,"long sleeve, button down, crew neck, cardiganlong sleeve, button down, crew neck",brown
-P,clothes,blazer,"long sleeve, blazerlong sleeve",beige and white
-P,clothes,shirt,"3/4 length, boat neck, shirt3/4 length, boat neck",beige with white horizontal stripes
-P,clothes,sweater,"long sleeve, sheer, sweaterlong sleeve, sheer",white
-P,clothes,sweater,"long sleeve, heavy, sweaterlong sleeve, heavy",dark grey
-P,clothes,cardigan,"long sleeve, cardiganlong sleeve",black
-P,clothes,shirt,"loose, 3/4 length sleeve, scoop neck, shirtloose, 3/4 length sleeve, scoop neck",black and white stripes
-P,clothes,shirt,"tight, 3/4 length sleeves, scoop neck, shirttight, 3/4 length sleeves, scoop neck",black and white stripes
-P,clothes,cardigan,"long sleeve, cardiganlong sleeve",light grey
-P,clothes,shirt,"v-neck, crop top, shirtv-neck, crop top",pale pink with chinese girl
-P,clothes,shirt,"v-neck, silk top, shirtv-neck, silk top",bright pink
-P,clothes,t-shirt,"v-neck, t-shirtv-neck",purple
-P,clothes,shirt,"scoop neck, crop top, shirtscoop neck, crop top",pale pink with swan
-P,clothes,t-shirt,"v-neck, t-shirtv-neck",robin's egg blue
-P,clothes,shirt,"v-neck, sleeveless, shirtv-neck, sleeveless",navy blue
-P,clothes,t-shirt,"scoop neck, t-shirtscoop neck",olive green
-P,clothes,t-shirt,"scoop neck, t-shirtscoop neck",olive green with shear black bottom
-P,clothes,shirt,"long sleeve, scoop neck, shirtlong sleeve, scoop neck",light grey
-P,clothes,hoodie,"long sleeve, hoodielong sleeve",light grey with 'ce soir'
-P,clothes,blouse,"scoop neck, silk, blousescoop neck, silk",leopard print with black back
-P,clothes,shirt,"sleevless, scoop neck silk, shirtsleevless, scoop neck silk",and black print
-P,clothes,blouse,"scoop neck, blousescoop neck",black with holes and decorations
-P,clothes,t-shirt,"v-neck, t-shirtv-neck",off white with gold designs
-P,clothes,t-shirt,"scoop neck, long, t-shirtscoop neck, long",beige with white and black elephants
-P,clothes,t-shirt,"crew neck, t-shirtcrew neck",grey with 'nope'
-P,clothes,blouse,"scoop neck, sheer, blousescoop neck, sheer",beige with rhinestones
-P,clothes,t-shirt,"v-neck, long, t-shirtv-neck, long",grey with white gem art
-P,clothes,t-shirt,"boat neck, long, t-shirtboat neck, long",grey with 'no vacancies'
-P,clothes,t-shirt,"v-neck, t-shirtv-neck",grey with small breast pocket
-P,clothes,t-shirt,"scoop neck, off-shoulder sleeves, long, t-shirtscoop neck, off-shoulder sleeves, long",grey patterns
-P,clothes,blouse,"button down, v-neck, sleeveless, sheer, blousebutton down, v-neck, sleeveless, sheer",leopard print
-P,clothes,blouse,"scoop/v-neck, sleeveless, blousescoop/v-neck, sleeveless",black with white patterns
-P,clothes,blouse,"scoop/v-neck, sleeveless, sheer, blousescoop/v-neck, sleeveless, sheer",white with black lace designs
-P,clothes,blouse,"scoop/v-neck, sleeveless, sheer, blousescoop/v-neck, sleeveless, sheer",white with black lines and dots
-P,clothes,blouse,"scoop/v-neck, sleeveless, sheer, blousescoop/v-neck, sleeveless, sheer",white with colorful flowers
-P,clothes,skirt,"high-waisted, below knee, silk, skirthigh-waisted, below knee, silk",olive with bronze hardwear
-P,clothes,pants,"bootcut, business, for flats, pantsbootcut, business, for flats",black
-P,clothes,pants,"bootcut, business, for flats, pantsbootcut, business, for flats",charcoal
-P,clothes,pants,"bootcut, jean, pantsbootcut, jean",dark blue
-P,clothes,pants,"skinny, jean, pantsskinny, jean",maroon
-P,clothes,pants,"bootcut, business, for heels, pantsbootcut, business, for heels",black
-P,clothes,pants,"bootcut, business, for flats, pantsbootcut, business, for flats",light grey
-P,clothes,blouse,"cap sleeve, blousecap sleeve",golden alligator print
-P,clothes,shorts,"business, shortsbusiness",black
-P,clothes,shorts,"business, shortsbusiness",black and white pattern
-S,clothes,dress,"drapey, scoop neck, knee length, dressdrapey, scoop neck, knee length",beige
-S,clothes,dress,"cap sleeve, scoop neck, knee length, tight, dresscap sleeve, scoop neck, knee length, tight",beige snakeskin
-S,clothes,dress,"long sleeve, scoop neck, knee length, dresslong sleeve, scoop neck, knee length",off white with sheer sleeves and lace overlay on the body
-S,clothes,dress,"sleevless, v-neck, a-line, above the knee, dresssleevless, v-neck, a-line, above the knee",black with gold glitter chevron
-S,clothes,dress,"sleevless, scoop neck, a-line, above the knee, dresssleevless, scoop neck, a-line, above the knee",black with black lace back
-S,clothes,dress,"long sleeve, sheer and solid, knee length, dresslong sleeve, sheer and solid, knee length",black
-S,clothes,dress,"long sleeve, above the knee, dresslong sleeve, above the knee",black
-S,clothes,dress,"sleeveless, above the knee, dresssleeveless, above the knee",black with sheer covering with paint brush strokes
-S,clothes,dress,"sleeveless, scoop neck, knee length, dresssleeveless, scoop neck, knee length",black and white stripes
-S,clothes,dress,"long sleeve, scoop neck, tight, above the knee, dresslong sleeve, scoop neck, tight, above the knee",and blue stripes
-S,clothes,dress,"cap sleeve, scoop neck, above the knee, dresscap sleeve, scoop neck, above the knee",and green flowers
-S,clothes,dress,"sleeveless, scoop neck, knee length, shift, dresssleeveless, scoop neck, knee length, shift",maroon
-S,clothes,dress,"halter top, floor length, sheer and solid, dresshalter top, floor length, sheer and solid",bright hawaiian flower designs
-S,clothes,dress,"sleeveless, scoop neck, a-line, above the knee, dresssleeveless, scoop neck, a-line, above the knee",maroon with black lace back
-S,clothes,dress,"cap sleeve, scoop neck, a-line, above the knee, dresscap sleeve, scoop neck, a-line, above the knee",teal with teapots
-S,clothes,dress,"long sleeve, scoop neck, a-line, above the knee, dresslong sleeve, scoop neck, a-line, above the knee",forest green
-S,clothes,dress,"flowy sleeve, scoop neck, sheer over solid, knee length, dressflowy sleeve, scoop neck, sheer over solid, knee length",purple
-S,clothes,dress,"sleeveless, square neck, a-line, knee length, dresssleeveless, square neck, a-line, knee length",kelly green with off white pattern
-S,clothes,dress,"sleeveless, square neck, a-line, knee length, dresssleeveless, square neck, a-line, knee length",blue with lemons and leaves
-S,clothes,dress,"sleeveless, square neck, a-line, knee length, dresssleeveless, square neck, a-line, knee length",navy blue with beige bicycles
-S,clothes,dress,"hippy, spaghetti strap, scoop neck, above the knee, dresshippy, spaghetti strap, scoop neck, above the knee",navy blue with black thread designs
-S,clothes,dress,"sleeveless, scoop neck, sheer on solid, dresssleeveless, scoop neck, sheer on solid",sea blue
-S,clothes,dress,"long sleeve, scoop neck, above the knee, dresslong sleeve, scoop neck, above the knee",greyish blue
-S,clothes,dress,"sleeveless, v-neck, a-line, above the knee, dresssleeveless, v-neck, a-line, above the knee",carolina blue
-P,clothes,shirt,"spaghetti strap, tank top, shirtspaghetti strap, tank top",purple
-P,clothes,shirt,"spaghetti strap, tank top, shirtspaghetti strap, tank top",olive
-P,clothes,shirt,"spaghetti strap, tank top, shirtspaghetti strap, tank top",pale pink
-P,clothes,shirt,"spaghetti strap, tank top, shirtspaghetti strap, tank top",salmon
-P,clothes,shirt,"spaghetti strap, cami, tank top, shirtspaghetti strap, cami, tank top",skintone
-P,clothes,shirt,"spaghetti strap, long, tank top, shirtspaghetti strap, long, tank top",gem green
-P,clothes,shirt,"spaghetti strap, long, tank top, shirtspaghetti strap, long, tank top",lavendar
-P,clothes,shirt,"spaghetti strap, long, tank top, shirtspaghetti strap, long, tank top",bright pink
-P,clothes,shirt,"spaghetti strap, tank top, shirtspaghetti strap, tank top",white
-P,clothes,shirt,"spaghetti strap, tank top, shirtspaghetti strap, tank top",off white
-P,clothes,shirt,"spaghetti strap, tank top, shirtspaghetti strap, tank top",skintone with gold sparkles
-P,clothes,shirt,"spaghetti strap, cami, tank top, shirtspaghetti strap, cami, tank top",black
-P,clothes,shirt,"spaghetti strap, tank top, shirtspaghetti strap, tank top",charcoal
-P,clothes,shirt,"spaghetti strap, tank top, shirtspaghetti strap, tank top",mauve
-P,clothes,shirt,"spaghetti strap, long, sheer, tank top, shirtspaghetti strap, long, sheer, tank top",skintone with floral and gun-butterfly designs
-P,clothes,shirt,"sleevless, long, tank top, shirtsleevless, long, tank top",black with lace accents
-P,clothes,shirt,"camisole, shirtcamisole",leopard with black lace accents
-S,clothes,dress,"cap sleeve, v-neck, a-line, button down, floor length, dresscap sleeve, v-neck, a-line, button down, floor length",pale pink with white and black flowers
-S,clothes,dress,"spaghetti strap, a-line, above the knee, dressspaghetti strap, a-line, above the knee",black and white stripes
-S,clothes,dress,"sleeveless, scoop neck, a-line, above the knee, dresssleeveless, scoop neck, a-line, above the knee",black
-S,clothes,dress,"sleevless, bowtie, sheer over solid, above the knee, dresssleevless, bowtie, sheer over solid, above the knee",black with purple and pink flowers
-S,clothes,dress,"sleeveless, sheer over solid, shift, dresssleeveless, sheer over solid, shift",black with pale pink flowers and white feathers
-P,clothes,sweater,"long sleeve, sweaterlong sleeve",mauve
-P,clothes,shirt,"long sleeve, proper collar, button up, shirtlong sleeve, proper collar, button up",jean
-P,clothes,skirt,"high-waisted, below knee, a-line, sheer over solid, skirthigh-waisted, below knee, a-line, sheer over solid",gem green
-P,clothes,pants,"boot cut, flat length, jean, pantsboot cut, flat length, jean",medium blue
-P,clothes,pants,"skinny, jean, pantsskinny, jean",light blue
-P,clothes,shorts,"jean, booty, shortsjean, booty",light blue
-P,clothes,shorts,"drawstring, shortsdrawstring",black
-P,clothes,shorts,"drawstring, shortsdrawstring",olive
-P,clothes,pants,"gaucho, pantsgaucho",olive
-P,clothes,shirt,"crop top, shirtcrop top",black
-P,clothes,shirt,"wife beater, shirtwife beater",black
+P,clothes,sweater,"long sleeve, crew neck, pullover",light blue
+P,clothes,cardigan,"long sleeve, crew neck",kelly green
+P,clothes,sweater,"heavy, button up",forest green
+P,clothes,cardigan,"long sleeve, flowy",olive green
+P,clothes,shirt,"long sleeve, v-neck",olive green
+P,clothes,cardigan,"3/4 length sleeve, crew neck, button down",purple
+P,clothes,blouse,"3/4 length sleeve, v-neck, sheer",pale pink
+P,clothes,shirt,"long sleeve, cowl neck",pale pink
+P,clothes,blouse,"3/4 length sleeved, sheer",leopard print
+P,clothes,blouse,"sheer",salmon
+P,clothes,cardigan,"long sleeve, button down, crew neck",pale pink
+P,clothes,blouse,"3/4 length sleeve",leopard print
+P,clothes,blouse,"long sleeve, high collar, sheer",robin's egg blue
+P,clothes,blouse,"3/4 length sleeve, crew neck, button down",light beige
+P,clothes,sweater,"long sleeve, scoop neck",beige with black cat
+P,clothes,cardigan,"long sleeve, button down, crew neck",brown
+P,clothes,blazer,"long sleeve",beige and white
+P,clothes,shirt,"3/4 length, boat neck",beige with white horizontal stripes
+P,clothes,sweater,"long sleeve, sheer",white
+P,clothes,sweater,"long sleeve, heavy",dark grey
+P,clothes,cardigan,"long sleeve",black
+P,clothes,shirt,"loose, 3/4 length sleeve, scoop neck",black and white stripes
+P,clothes,shirt,"tight, 3/4 length sleeves, scoop neck",black and white stripes
+P,clothes,cardigan,"long sleeve",light grey
+P,clothes,shirt,"v-neck, crop top",pale pink with chinese girl
+P,clothes,shirt,"v-neck, silk top",bright pink
+P,clothes,t-shirt,"v-neck",purple
+P,clothes,shirt,"scoop neck, crop top",pale pink with swan
+P,clothes,t-shirt,"v-neck",robin's egg blue
+P,clothes,shirt,"v-neck, sleeveless",navy blue
+P,clothes,t-shirt,"scoop neck",olive green
+P,clothes,t-shirt,"scoop neck",olive green with shear black bottom
+P,clothes,shirt,"long sleeve, scoop neck",light grey
+P,clothes,hoodie,"long sleeve",light grey with 'ce soir'
+P,clothes,blouse,"scoop neck, silk",leopard print with black back
+P,clothes,shirt,"sleevless, scoop neck silk",and black print
+P,clothes,blouse,"scoop neck",black with holes and decorations
+P,clothes,t-shirt,"v-neck",off white with gold designs
+P,clothes,t-shirt,"scoop neck, long",beige with white and black elephants
+P,clothes,t-shirt,"crew neck",grey with 'nope'
+P,clothes,blouse,"scoop neck, sheer",beige with rhinestones
+P,clothes,t-shirt,"v-neck, long",grey with white gem art
+P,clothes,t-shirt,"boat neck, long",grey with 'no vacancies'
+P,clothes,t-shirt,"v-neck",grey with small breast pocket
+P,clothes,t-shirt,"scoop neck, off-shoulder sleeves, long",grey patterns
+P,clothes,blouse,"button down, v-neck, sleeveless, sheer",leopard print
+P,clothes,blouse,"scoop/v-neck, sleeveless",black with white patterns
+P,clothes,blouse,"scoop/v-neck, sleeveless, sheer",white with black lace designs
+P,clothes,blouse,"scoop/v-neck, sleeveless, sheer",white with black lines and dots
+P,clothes,blouse,"scoop/v-neck, sleeveless, sheer",white with colorful flowers
+P,clothes,skirt,"high-waisted, below knee, silk",olive with bronze hardwear
+P,clothes,pants,"bootcut, business, for flats",black
+P,clothes,pants,"bootcut, business, for flats",charcoal
+P,clothes,pants,"bootcut, jean",dark blue
+P,clothes,pants,"skinny, jean",maroon
+P,clothes,pants,"bootcut, business, for heels",black
+P,clothes,pants,"bootcut, business, for flats",light grey
+P,clothes,blouse,"cap sleeve",golden alligator print
+P,clothes,shorts,"business",black
+P,clothes,shorts,"business",black and white pattern
+S,clothes,dress,"drapey, scoop neck, knee length",beige
+S,clothes,dress,"cap sleeve, scoop neck, knee length, tight",beige snakeskin
+S,clothes,dress,"long sleeve, scoop neck, knee length",off white with sheer sleeves and lace overlay on the body
+S,clothes,dress,"sleevless, v-neck, a-line, above the knee",black with gold glitter chevron
+S,clothes,dress,"sleevless, scoop neck, a-line, above the knee",black with black lace back
+S,clothes,dress,"long sleeve, sheer and solid, knee length",black
+S,clothes,dress,"long sleeve, above the knee",black
+S,clothes,dress,"sleeveless, above the knee",black with sheer covering with paint brush strokes
+S,clothes,dress,"sleeveless, scoop neck, knee length",black and white stripes
+S,clothes,dress,"long sleeve, scoop neck, tight, above the knee",and blue stripes
+S,clothes,dress,"cap sleeve, scoop neck, above the knee",and green flowers
+S,clothes,dress,"sleeveless, scoop neck, knee length, shift",maroon
+S,clothes,dress,"halter top, floor length, sheer and solid",bright hawaiian flower designs
+S,clothes,dress,"sleeveless, scoop neck, a-line, above the knee",maroon with black lace back
+S,clothes,dress,"cap sleeve, scoop neck, a-line, above the knee",teal with teapots
+S,clothes,dress,"long sleeve, scoop neck, a-line, above the knee",forest green
+S,clothes,dress,"flowy sleeve, scoop neck, sheer over solid, knee length",purple
+S,clothes,dress,"sleeveless, square neck, a-line, knee length",kelly green with off white pattern
+S,clothes,dress,"sleeveless, square neck, a-line, knee length",blue with lemons and leaves
+S,clothes,dress,"sleeveless, square neck, a-line, knee length",navy blue with beige bicycles
+S,clothes,dress,"hippy, spaghetti strap, scoop neck, above the knee",navy blue with black thread designs
+S,clothes,dress,"sleeveless, scoop neck, sheer on solid",sea blue
+S,clothes,dress,"long sleeve, scoop neck, above the knee",greyish blue
+S,clothes,dress,"sleeveless, v-neck, a-line, above the knee",carolina blue
+P,clothes,shirt,"spaghetti strap, tank top",purple
+P,clothes,shirt,"spaghetti strap, tank top",olive
+P,clothes,shirt,"spaghetti strap, tank top",pale pink
+P,clothes,shirt,"spaghetti strap, tank top",salmon
+P,clothes,shirt,"spaghetti strap, cami, tank top",skintone
+P,clothes,shirt,"spaghetti strap, long, tank top",gem green
+P,clothes,shirt,"spaghetti strap, long, tank top",lavendar
+P,clothes,shirt,"spaghetti strap, long, tank top",bright pink
+P,clothes,shirt,"spaghetti strap, tank top",white
+P,clothes,shirt,"spaghetti strap, tank top",off white
+P,clothes,shirt,"spaghetti strap, tank top",skintone with gold sparkles
+P,clothes,shirt,"spaghetti strap, cami, tank top",black
+P,clothes,shirt,"spaghetti strap, tank top",charcoal
+P,clothes,shirt,"spaghetti strap, tank top",mauve
+P,clothes,shirt,"spaghetti strap, long, sheer, tank top",skintone with floral and gun-butterfly designs
+P,clothes,shirt,"sleevless, long, tank top",black with lace accents
+P,clothes,shirt,"camisole",leopard with black lace accents
+S,clothes,dress,"cap sleeve, v-neck, a-line, button down, floor length",pale pink with white and black flowers
+S,clothes,dress,"spaghetti strap, a-line, above the knee",black and white stripes
+S,clothes,dress,"sleeveless, scoop neck, a-line, above the knee",black
+S,clothes,dress,"sleevless, bowtie, sheer over solid, above the knee",black with purple and pink flowers
+S,clothes,dress,"sleeveless, sheer over solid, shift",black with pale pink flowers and white feathers
+P,clothes,sweater,"long sleeve",mauve
+P,clothes,shirt,"long sleeve, proper collar, button up",jean
+P,clothes,skirt,"high-waisted, below knee, a-line, sheer over solid",gem green
+P,clothes,pants,"boot cut, flat length, jean",medium blue
+P,clothes,pants,"skinny, jean",light blue
+P,clothes,shorts,"jean, booty",light blue
+P,clothes,shorts,"drawstring",black
+P,clothes,shorts,"drawstring",olive
+P,clothes,pants,"gaucho",olive
+P,clothes,shirt,"crop top",black
+P,clothes,shirt,"wife beater",black
 Q,hats,,"",
 Q,purses,,"",
 S,coats,,"",
