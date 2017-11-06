@@ -46,8 +46,9 @@ with open(local_directory + 'home_inventory/clothes_download.csv', 'r') as file1
             # clean up item bit
             item = '';
             for i in range(len(arr_item) - 1):
-                item += arr_item[i].strip() + ","
+                item += arr_item[i].strip() + ", "
             item = item[:len(item)-1]
+            item = item[:-1]
             
             # get color bit
             color = arr[len(arr)-1].strip()                     # last column is the color
