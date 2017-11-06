@@ -8,13 +8,13 @@ use strict;
 use warnings;
 use Data::Dumper;
 
-my $local_directory = '/Users/Katelynn/Documents/';                     # replace with location of the repository
+my $local_directory = '/Users/Katelynn/Documents/';                     # replace with local location of the repository
 
 # open the local file
 open my $fh1, $local_directory . 'home_inventory/clothes_download.csv'; 
 
 # loop through the original file
-my $clothes_new = "box,category,sub_category,details,color\n";
+my $clothes_new = "box,category,sub_category,details,color\n";          # header row for new file
 while (my $line = <$fh1>) {
     next if $. == 1;                                                    # skip first line
     $line = lc $line;                                                   # make all letters lowercase for consistency
@@ -53,6 +53,6 @@ while (my $line = <$fh1>) {
 close $fh1;
 
 # create new local file and write the cleaned up data to it
-open my $fh2, '>', $local_directory . 'home_inventory/clothes_new.csv';
+open my $fh2, '>', $local_directory . 'home_inventory/clothes_new_perl.csv';
 print $fh2 $clothes_new;
 close $fh2;
