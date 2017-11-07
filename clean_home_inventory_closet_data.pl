@@ -17,8 +17,8 @@ open my $fh1, $local_directory . 'home_inventory/clothes_download.csv';
 my $clothes_new = "box,category,sub_category,details,color\n";          # header row for new file
 while (my $line = <$fh1>) {
     next if $. == 1;                                                    # skip first line
+#    next unless $line =~ /sheer/ && $line =~ /blouse/ && $line =~ /pale/;
     $line = lc $line;                                                   # make all letters lowercase for consistency
-    
     my @arr = split/,/,$line;                                           # split the line into parts
     my $box = uc $arr[0];                                               # first bit is the box the item is in, also the only uppercase column
     my $category = $arr[1];                                             # second bit is the top level category
@@ -41,15 +41,32 @@ while (my $line = <$fh1>) {
         chop $item;
         
         # get color bit
-        $color = $arr[(scalar @arr - 1)];                               # last column is the color
-
-        # clean up color bit
-        $color =~ s/^\s+|\"|\s+$//g;                                    # remove leading spaces | remove double quotes | remove trailing spaces
+        my $last_double_quote = 0;
+        for (my $i = scalar @arr - 1; $i > 0; $i--) { 
+            if ($arr[$i] =~ /\"/ && $i != scalar @arr - 1) {            # find last array index that has a double quote and isn't the last item in the array
+                if ($arr[$i-1] =~ /\"/) {                               # for when item and color both had commas in them originally
+                    if ($arr[$i] =~ /$sub_category/) {
+                        $last_double_quote = $i;
+                    } else {
+                        $last_double_quote = $i - 1;
+                    }
+                } else {
+                    $last_double_quote = $i;
+                }
+                last;
+            }
+        }
+        for (my $i = $last_double_quote + 1; $i < scalar @arr; $i++) {  # use it as the starting place for the color part
+            # clean up color bit
+            $arr[$i] =~ s/^\s+|\"|\s+$//g;                              # remove leading spaces | remove double quotes | remove trailing spaces
+            $color .= $arr[$i] . ", "; 
+        }
+        $color = substr $color, 0, length($color) - 2;
     } else {                                                            # handle undefined items
         $category = $arr[2];                                            # move sub_category to category
         $item = '';
     }
-    $clothes_new .= "$box,$category,$sub_category,\"$item\",$color\n";
+    $clothes_new .= "$box,$category,$sub_category,\"$item\",\"$color\"\n";
 }
 close $fh1;
 
