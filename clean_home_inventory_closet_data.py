@@ -17,7 +17,6 @@ def find_nth(line, char, n):
         i += 1
         if i == n or index == -1:
             return index
-            break
 
 local_directory = '/Users/Katelynn/Documents/'                  # replace with local location of the repository
 clothes_new = "box,category,sub_category,details,color\n";      # header row for new file
@@ -29,6 +28,8 @@ with open(local_directory + 'home_inventory/clothes_download.csv', 'r') as file1
     # loop through the original file
     for line in file1:
         if (1 == 1):
+#        if (line.find("bright pink, leopard print") != -1):
+            print line
             line = line.lower()                                     # make all letters lowercase for consistency
             arr = line.split(',')                                   # split the line into parts
             box = arr[0].upper()                                    # first bit is the box the item is in, also the only uppercase column
@@ -54,29 +55,30 @@ with open(local_directory + 'home_inventory/clothes_download.csv', 'r') as file1
 
                 # get color bit
                 last_double_quote = find_nth(line, "\"", 4)
+                print "ldq:", last_double_quote
                 if (last_double_quote == -1):
-                    color = arr[len(arr)-1]
+                    color = arr[len(arr) - 1]
                     color = color.strip().replace("\"",'')
-                else:
-                    char_count = 0
-                    color_index = 0
-                    for i in range(len(arr)):
-                        # count the characters of each array index
-                        char_count += len(arr[i])
-                        if (char_count <= last_double_quote <= char_count * 2):
-                            color_index = i
+                else:                                                       # for when item and color both had commas in them originally
+                    for i in range(len(arr) - 1, -1, -1):
+                        if (arr[i - 1].find("\"") != -1):
+                            if (arr[i].strip().replace("\"",'') == sub_category):
+                                print "sub"
+                                last_double_quote = i
+                            else:
+                                print "not sub"
+                                last_double_quote = i - 1
                             break
-                    
-                    # clean up color bit
-                    while color_index < len(arr):
-                        if (arr[color_index].strip().replace("\"",'') == sub_category):
-                            color_index += 1
                         else:
-                            color_index
-                        color += arr[color_index].strip().replace("\"",'') + ", "
-                        color_index += 1
+                            last_double_quote = i
+                        print "i =", i
+                        
+                    while last_double_quote < len(arr):
+                        print "arr[last_double_quote]", arr[last_double_quote], "| last_double_quote =", last_double_quote
+                        color += arr[last_double_quote].strip().replace("\"", '') + ", "
+                        last_double_quote += 1
                     color = color[:-2]
-            clothes_new += box + "," + category + "," + sub_category + ",\"" + item + "\",\"" + color + "\"\n";
+            clothes_new += box + "," + category + "," + sub_category + ",\"" + item + "\",\"" + color + "\"\n"
 print clothes_new;
 
 # create new local file and write the cleaned up data to it
